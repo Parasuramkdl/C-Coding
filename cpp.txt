@@ -1,0 +1,18 @@
+1) virtual destructor 
+2) virtual functions,base class (diamond problem) --multiple inheritance 
+3) 
+
+a 
+m1 
+c1
+
+b 
+c1
+m2 
+
+c : public b
+c1
+m3 
+
+d: public b,public c 
+
